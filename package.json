@@ -1,8 +1,8 @@
 {
-  "name": "jsxgraph",
+  "name": "@concord-consortium/jsxgraph",
   "description": "Interactive geometry, plotting, visualization",
   "homepage": "http://jsxgraph.org",
-  "version": "0.99.7",
+  "version": "0.99.8-cc.1",
   "main": "distrib/jsxgraphcore.js",
   "maintainers": [
     {
@@ -30,20 +30,17 @@
     "mathematics education"
   ],
   "bugs": {
-    "url": "http://github.com/jsxgraph/jsxgraph/issues"
+    "url": "https://github.com/concord-consortium/jsxgraph/issues"
   },
   "directories": {
     "lib": "src"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jsxgraph/jsxgraph.git"
+    "url": "https://github.com/concord-consortium/jsxgraph.git"
   },
   "dependencies": {
     "requirejs": "^2.3.5"
-  },
-  "optionalDependencies": {
-    "canvas": "^1.6.11"
   },
   "devDependencies": {
     "almond": "^0.3.3",
